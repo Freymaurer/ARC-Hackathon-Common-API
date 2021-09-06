@@ -57,6 +57,79 @@
                   "value": "-9"
                 }
               ]
+            },
+            {
+              "input": "c",
+              "output": "z",
+              "values": [
+                {
+                  "category": "p0",
+                  "unit": "deg",
+                  "value": "-1"
+                },
+                {
+                  "category": "p1",
+                  "unit": "deg",
+                  "value": "-2"
+                },
+                {
+                  "category": "c0",
+                  "unit": "deg",
+                  "value": "-3"
+                },
+                {
+                  "category": "f0",
+                  "unit": "deg",
+                  "value": "-4"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sheet2",
+          "rows": [
+            {
+              "input": "x",
+              "output": "i",
+              "values": [
+                {
+                  "category": "p2",
+                  "unit": "deg",
+                  "value": "1"
+                },
+                {
+                  "category": "c1",
+                  "unit": "deg",
+                  "value": "2"
+                },
+                {
+                  "category": "f1",
+                  "unit": "deg",
+                  "value": "3"
+                }
+              ]
+            },
+            {
+              "input": "y",
+              "output": "j",
+              "values": [
+                {
+                  "category": "p2",
+                  "unit": "deg",
+                  "value": "4"
+                },
+                {
+                  "category": "c1",
+                  "unit": "deg",
+                  "value": "5"
+                },
+                {
+                  "category": "f1",
+                  "unit": "deg",
+                  "value": "6"
+                }
+              ]
             }
           ]
         }
