@@ -1,0 +1,66 @@
+{
+  "assays": [
+    {
+      "name": "assay0",
+      "worksheets": [
+        {
+          "name": "sheet1",
+          "rows": [
+            {
+              "input": "a",
+              "output": "x",
+              "values": [
+                {
+                  "category": "p0",
+                  "unit": "deg",
+                  "value": "-2"
+                },
+                {
+                  "category": "p1",
+                  "unit": "deg",
+                  "value": "-3"
+                },
+                {
+                  "category": "c0",
+                  "unit": "deg",
+                  "value": "-4"
+                },
+                {
+                  "category": "f0",
+                  "unit": "deg",
+                  "value": "-5"
+                }
+              ]
+            },
+            {
+              "input": "b",
+              "output": "y",
+              "values": [
+                {
+                  "category": "p0",
+                  "unit": "deg",
+                  "value": "-6"
+                },
+                {
+                  "category": "p1",
+                  "unit": "deg",
+                  "value": "-7"
+                },
+                {
+                  "category": "c0",
+                  "unit": "deg",
+                  "value": "-8"
+                },
+                {
+                  "category": "f0",
+                  "unit": "deg",
+                  "value": "-9"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
