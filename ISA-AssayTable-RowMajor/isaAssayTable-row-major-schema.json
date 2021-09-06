@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "isaAssayTable-row-major",
+  "$id": "isaAssayTable-row-major-schema",
   "title": "ISA Assay Table Representation Row Major",
   "description": "Represent ISA-XLSX workbook (row-major) in json format.",
   "type": "object",
