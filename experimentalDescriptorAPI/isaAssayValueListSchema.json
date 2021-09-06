@@ -1,40 +1,50 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id":  "isaAssayValueList",
-    "title": "Placeholder",
-    "description": "Format to represent a collection of either source- or sink-sorted experimental descriptor values. This includes ISA factor, parameter and characteristic values.",
-    "type": "object",
-    "properties": {
-        "source": {
-            "type": "array",
-            "items": {
-                "$ref": "#/$defs/experimentalDescriptorList"
-            }
-        },
-        "sink": {
-            "type": "array",
-            "items": {
-                "$ref": "#/$defs/experimentalDescriptorList"
-            }
-        }
-    },
-
-    "$defs": {
-        "experimentalDescriptorList": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "isaAssayTable-row-major",
+  "title": "ISA Assay Table Representation Row Major",
+  "description": "Represent ISA-XLSX workbook (row-major) in json format.",
+  "type": "object",
+  "properties": {
+    "workbook": {
+      "type": "object",
+      "properties": {
+        "name": "string",
+        "worksheets": {
+          "type": "array",
+          "items": {
             "type": "object",
             "properties": {
-                "name": "string",
-                "values": {
-                    "type": "array",
-                    "items": {
-                        "anyOf": [
-                            { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/process_parameter_value_schema.json" },
-                            { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/material_attribute_value_schema.json" },
-                            { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/factor_value_schema.json" }
-                        ]
+              "name": "string",
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "input": "string",
+                    "output": "string",
+                    "namedValues": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/$defs/namedValue"
+                      }
                     }
+                  }
                 }
+              }
             }
+          }
         }
+      }
     }
+  },
+
+  "$defs": {
+    "namedValue": {
+      "anyOf": [
+        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/process_parameter_value_schema.json" },
+        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/material_attribute_value_schema.json" },
+        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/factor_value_schema.json" }
+      ]
+    }
+  }
 }
