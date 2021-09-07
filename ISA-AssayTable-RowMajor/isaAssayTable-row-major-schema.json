@@ -18,27 +18,23 @@
               "properties": {
                 "input": { "type": "string" },
                 "output": { "type": "string" },
-                "namedValues": {
+                "characteristicValues": {
                   "type": "array",
-                  "items": {
-                    "$ref": "#/$defs/namedValue"
-                  }
+                  "items": { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/material_attribute_value_schema.json" }
+                },
+                "parameterValues": {
+                  "type": "array",
+                  "items": { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/process_parameter_value_schema.json" }
+                },
+                "factorValues": {
+                  "type": "array",
+                  "items": { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/factor_value_schema.json" }
                 }
               }
             }
           }
         }
       }
-    }
-  },
-
-  "$defs": {
-    "namedValue": {
-      "anyOf": [
-        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/process_parameter_value_schema.json" },
-        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/material_attribute_value_schema.json" },
-        { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/factor_value_schema.json" }
-      ]
     }
   }
 }
