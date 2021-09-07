@@ -5,29 +5,23 @@
   "description": "Represent ISA-XLSX workbook (row-major) in json format.",
   "type": "object",
   "properties": {
-    "workbook": {
-      "type": "object",
-      "properties": {
-        "name": "string",
-        "worksheets": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": "string",
-              "rows": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "input": "string",
-                    "output": "string",
-                    "namedValues": {
-                      "type": "array",
-                      "items": {
-                        "$ref": "#/$defs/namedValue"
-                      }
-                    }
+    "worksheets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "rows": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "input": { "type": "string" },
+                "output": { "type": "string" },
+                "namedValues": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/namedValue"
                   }
                 }
               }

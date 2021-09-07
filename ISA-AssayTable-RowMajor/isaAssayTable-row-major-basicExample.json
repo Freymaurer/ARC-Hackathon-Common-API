@@ -1,593 +1,590 @@
 {
-  "workbook": {
-    "name": "assay0",
-    "worksheets": [
-      {
-        "name": "sheet1",
-        "rows": [
-          {
-            "input": "source1",
-            "output": "output1",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+  "worksheets": [
+    {
+      "name": "sheet1",
+      "rows": [
+        {
+          "input": "source1",
+          "output": "output1",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
                 }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
               }
-            ]
-          },
-          {
-            "input": "source1",
-            "output": "output2",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
-                }
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
               }
-            ]
-          },
-          {
-            "input": "source1",
-            "output": "output3",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
                 }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
               }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "sheet2",
-        "rows": [
-          {
-            "input": "output1",
-            "output": "res1",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+            }
+          ]
+        },
+        {
+          "input": "source1",
+          "output": "output2",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
                 }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
               }
-            ]
-          },
-          {
-            "input": "output2",
-            "output": "res2",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
-                }
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
               }
-            ]
-          },
-          {
-            "input": "output3",
-            "output": "res3",
-            "namedValues": [
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "Quantification method"
-                  }
-                },
-                "value": "SILAC"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "spectrum interpretation",
-                    "termSource": "MS",
-                    "termAccession": "1001000"
-                  }
-                },
-                "value": "metabolic labelling: natural N (mainly 14N)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "cleavage agent name",
-                    "termSource": "MS",
-                    "termAccession": "1001045"
-                  }
-                },
-                "value": {
-                  "annotationValue": "Trypsin",
-                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
                 }
               },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "buffer",
-                    "termSource": "CHEBI",
-                    "termAccession": "35225"
-                  }
-                },
-                "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
-              },
-              {
-                "category": {
-                  "parameterName": {
-                    "annotationValue": "temperature",
-                    "termSource": "PATO",
-                    "termAccession": "000146"
-                  }
-                },
-                "value": "42",
-                "unit": {
-                  "annotationValue": "degree Celsius",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
                 }
               },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "species"
-                  }
-                },
-                "value": "Chlamydomonas reinhardtii"
-              },
-              {
-                "category": {
-                  "characteristicType": {
-                    "annotationValue": "genotype information",
-                    "termSource": "OBI",
-                    "termAccession": "0001305"
-                  }
-                },
-                "value": "CF185"
-              },
-              {
-                "category": {
-                  "factorName": "time",
-                  "factorType": {
-                    "annotationValue": "time",
-                    "termSource": "PATO",
-                    "termAccession": "0000165"
-                  }
-                },
-                "value": "5",
-                "unit": {
-                  "annotationValue": "hour",
-                  "termSource": "UO",
-                  "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
                 }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ]
+        },
+        {
+          "input": "source1",
+          "output": "output3",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
+                }
+              },
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
+                }
+              },
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
+                }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+              }
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
+                }
+              },
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
+                }
+              },
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              }
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
+                }
+              },
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
+                }
+              },
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
+                }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "sheet2",
+      "rows": [
+        {
+          "input": "output1",
+          "output": "res1",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
+                }
+              },
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
+                }
+              },
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
+                }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+              }
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
+                }
+              },
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
+                }
+              },
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              }
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
+                }
+              },
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
+                }
+              },
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
+                }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              }
+            }
+          ]
+        },
+        {
+          "input": "output2",
+          "output": "res2",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
+                }
+              },
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
+                }
+              },
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
+                }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+              }
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
+                }
+              },
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
+                }
+              },
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              }
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
+                }
+              },
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
+                }
+              },
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
+                }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              }
+            }
+          ]
+        },
+        {
+          "input": "output3",
+          "output": "res3",
+          "namedValues": [
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "Quantification method"
+                }
+              },
+              "value": "SILAC"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "spectrum interpretation",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001000"
+                }
+              },
+              "value": "metabolic labelling: natural N (mainly 14N)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "cleavage agent name",
+                  "termSource": "MS",
+                  "termAccession": "http://purl.obolibrary.org/obo/MS_1001045"
+                }
+              },
+              "value": {
+                "annotationValue": "Trypsin",
+                "termAccession": "http://purl.obolibrary.org/obo/MS_1001251"
+              }
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "buffer",
+                  "termSource": "CHEBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/CHEBI_35225"
+                }
+              },
+              "value": "Lysis Buffer (50 mM NH4HCO3, 1 mM DTT, 1 mM NaCl)"
+            },
+            {
+              "category": {
+                "parameterName": {
+                  "annotationValue": "temperature",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_000146"
+                }
+              },
+              "value": "42",
+              "unit": {
+                "annotationValue": "degree Celsius",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000027"
+              }
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "species"
+                }
+              },
+              "value": "Chlamydomonas reinhardtii"
+            },
+            {
+              "category": {
+                "characteristicType": {
+                  "annotationValue": "genotype information",
+                  "termSource": "OBI",
+                  "termAccession": "http://purl.obolibrary.org/obo/OBI_0001305"
+                }
+              },
+              "value": "CF185"
+            },
+            {
+              "category": {
+                "factorName": "time",
+                "factorType": {
+                  "annotationValue": "time",
+                  "termSource": "PATO",
+                  "termAccession": "http://purl.obolibrary.org/obo/PATO_0000165"
+                }
+              },
+              "value": "5",
+              "unit": {
+                "annotationValue": "hour",
+                "termSource": "UO",
+                "termAccession": "http://purl.obolibrary.org/obo/UO_0000032"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
