@@ -5,12 +5,12 @@
   "description": "Represent ISA-XLSX workbook (row-major) in json format.",
   "type": "object",
   "properties": {
-    "worksheets": {
+    "sheets": {
       "type": "array",
       "items": {
         "type": "object",
         "properties": {
-          "name": { "type": "string" },
+          "sheetName": { "type": "string" },
           "rows": {
             "type": "array",
             "items": {
@@ -18,6 +18,8 @@
               "properties": {
                 "input": { "type": "string" },
                 "output": { "type": "string" },
+                "inputType": { "type": "string" },
+                "outputType": { "type": "string" },
                 "characteristicValues": {
                   "type": "array",
                   "items": { "$ref": "https://raw.githubusercontent.com/ISA-tools/isa-specs/master/source/_static/isajson/material_attribute_value_schema.json" }
